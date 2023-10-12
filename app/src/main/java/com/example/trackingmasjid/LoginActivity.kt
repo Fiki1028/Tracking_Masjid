@@ -39,7 +39,7 @@ class LoginActivity : AppCompatActivity() {
         }
 
         binding.singIn.setOnClickListener {
-            startActivity(Intent(this@LoginActivity, MainActivity::class.java))
+            startActivity(Intent(this@LoginActivity, BerandaActivity::class.java))
         }
     }
 }
