@@ -24,7 +24,7 @@ class BerandaActivity : AppCompatActivity() {
     }
 
     private fun init() {
-        binding.rvExample.layoutManager = LinearLayoutManager(this@BerandaActivity)
+        binding.rvExample.layoutManager = LinearLayoutManager(this@BerandaActivity, LinearLayoutManager.HORIZONTAL, false)
     }
 
     private fun setRvAdapter() {
